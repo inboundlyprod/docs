@@ -18,34 +18,18 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@inboundly.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.inboundly.ai"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://inboundly.ai/community"
     }
   ],
   "navigation": [
@@ -53,39 +37,41 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Inbox",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "inbox/general",
+        "inbox/advanced"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "CRM",
       "pages": [
-        "api-reference/introduction"
+        "crm/general",
+        "crm/advanced"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Lists",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "lists/create",
+        "lists/manage",
+        "lists/autopilot"
+      ]
+    },
+    {
+      "group": "Workspace",
+      "pages": [
+        "workspace/create",
+        "workspace/manage",
+        "workspace/accounts"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/inboundlyai"
   }
 }
