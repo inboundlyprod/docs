@@ -18,20 +18,14 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@inboundly.ai"
+      "url": "mailto:support@inboundly.bolddesk.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
     "url": "https://app.inboundly.ai"
   },
-  "anchors": [
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://inboundly.ai/community"
-    }
-  ],
+  "anchors": [],
   "navigation": [
     {
       "group": "Get Started",
