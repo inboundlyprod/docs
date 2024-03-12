@@ -30,22 +30,64 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
         "quickstart"
+      ]
+    },
+    {
+      "group": "Connecting Accounts",
+      "pages": [
+        "inboxes/connect",
+        "inboxes/manage"
       ]
     },
     {
       "group": "Inbox",
       "pages": [
-        "inbox/general",
-        "inbox/advanced"
+        {
+          "group": "Messaging",
+          "pages": [
+            "inbox/messaging/read",
+            "inbox/messaging/mark-unread",
+            "inbox/messaging/sending"
+          ]
+        },
+        {
+          "group": "Quick Replies",
+          "pages": [
+            "inbox/quickreplies/use",
+            "inbox/quickreplies/manage"
+          ]
+        },
+        "inbox/reminders",
+        "inbox/opportunity-score",
+        {
+          "group": "Lead Details",
+          "pages": [
+            "inbox/details/notes",
+            "inbox/details/lists",
+            "inbox/details/label",
+            "inbox/details/value",
+            "inbox/details/contact"
+          ]
+        },
+        "inbox/blocked"
       ]
     },
     {
       "group": "CRM",
       "pages": [
-        "crm/general",
-        "crm/advanced"
+        "crm/quickstart",
+        {
+          "group": "Labels",
+          "pages": [
+            "crm/labels/create",
+            "crm/labels/manage",
+            "crm/labels/reorder"
+          ]
+        },
+        "crm/filter",
+        "crm/move-leads",
+        "crm/default-value"
       ]
     },
     {
@@ -57,15 +99,36 @@
       ]
     },
     {
+      "group": "Integrations",
+      "pages": [
+        "integrate/setup",
+        "integrate/example",
+        "integrate/credentials"
+      ]
+    },
+    {
       "group": "Workspace",
       "pages": [
-        "workspace/create",
-        "workspace/manage",
-        "workspace/accounts"
+        "workspace/general",
+        "workspace/members",
+        "workspace/roles",
+        "workspace/billing",
+        "workspace/branding"
+      ]
+    },
+    {
+      "group": "Settings",
+      "pages": [
+        "settings/account",
+        "settings/logout",
+        "settings/password",
+        "settings/goodbye"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/inboundlyai"
+    "website": "https://inboundly.ai",
+    "twitter": "https://x.com/inboundlyai",
+    "linkedin": "https://linkedin.com/company/inboundlyai"
   }
 }
