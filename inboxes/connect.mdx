@@ -1,13 +1,13 @@
 ---
-title: 'Connecting X/Twitter Inboxes'
+title: 'Connecting  𝕏/Twitter Inboxes'
 description: ''
 ---
 
 <Note>Only Workspace Owners and Admins can connect inboxes to a workspace.</Note>
 
-First, log in to your X/Twitter account on the same device and browser you're using to set up Inboundly.
+First, log in to your  𝕏/Twitter account on the same device and browser you're using to set up Inboundly.
 
-If you're logged in to multiple X/Twitter accounts already, make sure to switch to the one that you want to connect to Inboundly.
+If you're logged in to multiple  𝕏/Twitter accounts already, make sure to switch to the one that you want to connect to Inboundly.
 
 <video autoplay="true" muted="true" loop playsinline className="w-full aspect-video" src="/videos/guides_x_switch_accounts.mp4" />
 
@@ -15,4 +15,25 @@ Back on Inboundly, head to the Settings tab. Use the sidebar to open "Inboxes". 
 
 <video autoplay="true" muted="true" loop playsinline className="w-full aspect-video" src="/videos/guides_connect_account_full.mp4" />
 
-That's it! You'll now be able to manage your new inbox in Inboundly.
+You'll now be able to manage this inbox in Inboundly. To enable in-app messaging, please continue with the instructions below.
+
+## Messaging Tokens
+
+In order to enable in-app messaging, you'll need to add your messaging tokens to Inboundly.
+
+First, open an **incognito browser window** and log in to your 𝕏/Twitter account.
+
+Once your logged in, right-click the page and press "Inspect" (Chrome) or "Inspect Element" (Firefox). Locate the "Application" tab (Chrome) or "Storage" tab (Firefox).
+
+In the "Cookies" list for "twitter.com", find the "auth_token" row and copy the "Cookie Value".
+
+<video autoplay="true" muted="true" loop playsinline className="w-full aspect-video" src="/videos/guides_get_tokens.mp4" />
+
+Back on Inboundly, head to the Settings tab and use the sidebar to open "Inboxes". Click the gear icon on the correct inbox, then select "Messaging Tokens".
+Paste the value you just copied into Inboundly.
+
+<video autoplay="true" muted="true" loop playsinline className="w-full aspect-video" src="/videos/guides_paste_tokens.mp4" />
+
+Do the same thing for the "ct0" row, and hit "Save Changes".
+
+That's it! You'll now be able to send messages with your 𝕏/Twitter account directly from Inboundly.
